@@ -1,7 +1,7 @@
 {
   "name": "badjs-app",
   "version": "0.1.0",
-  "homepage":"http.nicolasolo.gihtub.io",
+  "homepage":"nicolasolo.gihtub.io",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
     "@fortawesome/free-solid-svg-icons": "^5.7.2",
