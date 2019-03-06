@@ -1,0 +1,2 @@
+C:\Users\Nicola\badbunnyjs\badjs-app\obj\Debug\FromExistingCode1.njsproj.CoreCompileInputs.cache
+C:\Users\Nicola\badbunnyjs\badjs-app\bin\Microsoft.NodejsTools.WebRole.dll
