@@ -1,19 +1,48 @@
 {
-  "name": "223-app",
+  "name": "badjs-app",
   "version": "0.1.0",
-  "private": true,
+  "homepage":"http.nicolasolo.gihtub.io",
   "dependencies": {
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "@material-ui/core": "3.9.2",
-    "@material-ui/icons": "3.0.2",
-    "react-scripts": "2.1.5"
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "@mdi/font": "^3.5.95",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.3.1",
+    "cors-prefetch-middleware": "^1.0.0",
+    "express": "^4.16.4",
+    "gulp": "^4.0.0",
+    "images-upload-middleware": "^1.1.1",
+    "material-ui": "^0.20.2",
+    "multer": "^1.4.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.3",
+    "react-admin": "^2.7.2",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-dom": "^16.8.3",
+    "react-images-upload": "^1.2.6",
+    "react-images-uploader": "^1.2.0-rc1",
+    "react-justified-grid": "0.0.8",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "react-share": "^2.4.0",
+    "reactstrap": "^7.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "proxy": "http://localhost:5000/",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
   },
   "eslintConfig": {
     "extends": "react-app"
