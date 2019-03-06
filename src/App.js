@@ -29,7 +29,7 @@ class App extends Component {
             
              
             
-              <Route path="/" exact component={Home} />
+              <Route path="/home" exact component={Home} />
               <Route path="/about" component={About} />
                   <Route path="/Gallery" component={Gallery} />
                   <Route path="/Contact" component={Contact} />
