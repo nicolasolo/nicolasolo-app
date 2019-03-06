@@ -12,7 +12,7 @@ const Example = (props) => {
             <Card>
                 <CardBody>
 
-                    <h1 className="text-danger">Card title</h1>
+                    <h1 className="text-danger">Card</h1>
                 </CardBody>
                 <CardImg center width="100%" src={require('../../img/R1.png')} alt="Card image cap" />
                 <CardBody>
