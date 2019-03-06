@@ -1,19 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
 import  Image from 'react-bootstrap/Image';
 
 
 
 
-const Jumbo = (props) => {
+class Jumbo extends Component {
+    render() {
+        return (
 
-    return (
-        
-        
-                <Image fluid src={require('../../img/R1.png')} />
-               
-           
-       
-    );
-};
 
+            <Image fluid src={require('../../img/R1.png')} />
+
+
+
+        );
+    }
+}
 export default Jumbo;
