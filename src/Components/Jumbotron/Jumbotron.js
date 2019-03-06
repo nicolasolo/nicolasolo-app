@@ -1,6 +1,4 @@
 import React from 'react';
-import { Jumbotron, Container, } from 'reactstrap';
-import Col from 'react-bootstrap/Col';
 import  Image from 'react-bootstrap/Image';
 
 
